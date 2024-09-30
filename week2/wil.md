@@ -11,10 +11,13 @@
   controller(흐름 제어) 로 나누어 설계하는 방식
 
 
-
 # 장고 프로젝트 구조
+-"장고 프로젝트 명령어"
+  + django-admin startproject - 장고로 만드는 소프트웨어 전체
+  + django-admin startapp - 프로젝트 내에서 기능별로 쪼개놓은 단위
 
-
+-"manage.py"
+  + 
 
 
 # 실습
