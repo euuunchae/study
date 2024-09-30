@@ -2,6 +2,7 @@
 =====================
 
 # MTV 패턴이란?
+
 - "MTV 패턴"
   + model, template(응답 관리), view(흐름 제어)
 
@@ -21,6 +22,7 @@
 
 
 # 장고 프로젝트 구조
+
 - "장고 프로젝트 명령어"
   + django-admin startproject - 장고로 만드는 소프트웨어 전체
   + django-admin startapp - 프로젝트 내에서 기능별로 쪼개놓은 단위
