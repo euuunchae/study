@@ -25,8 +25,8 @@
   + django-admin startproject - 장고로 만드는 소프트웨어 전체
   + django-admin startapp - 프로젝트 내에서 기능별로 쪼개놓은 단위
 - "settings.py" : 장고 설정에 관한 내용을 담음
-- "views.py" : 전체적인 흐름을 제어하고, 정보를 가공해 template에 넘겨줌
-- "manage.py" : 터미널을 이용해 미리 작성된 명령을 실행할 수 있게 해줌
+- "views.py" : 전체적인 흐름을 제어하고, 정보를 가공해 template에 넘겨줌.
+- "manage.py" : 터미널을 이용해 미리 작성된 명령을 실행할 수 있게 해줌.
 
 
 # 실습
