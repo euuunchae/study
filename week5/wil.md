@@ -20,11 +20,11 @@
    + request :  HTTP Request 객체
    + 'index.html' : 응답할 html 파일 이름
    + context : html 파일에서 사용할 딕셔너리(key값 문자열이어야 함) 
-      >  DB 정보 전달 시 'key.객체변수이름'으로 사용
-      > ex <p>{{student.address}}</p>
+      *  DB 정보 전달 시 'key.객체변수이름'으로 사용
+      *  ex <p>{{student.address}}</p>
 
  **HTML**
- - 웹페이지의 구조를 나타내는 마크업 언어. 태그 이용
+ - 웹페이지의 구 조를 나타내는 마크업 언어. 태그 이용
  - 태그 종류
    + h1, h2, h3 : 제목 생성. 숫자 커질 수록 폰트 크기 작아짐
    + p : 문단 생성. 입력한 부분 앞 뒤로 빈 줄 생성
