@@ -28,7 +28,7 @@
  - 태그 종류
   + h1, h2, h3 : 제목 생성. 숫자 커질 수록 폰트 크기 작아짐
   + p : 문단 생성. 입력한 부분 앞 뒤로 빈 줄 생성
-  + a : 하이퍼링크 "<a href='www.google.com'>google<a/>"
+  + a : 하이퍼링크 "<a href='www.google.com'>google<a\>"
   + <span style="color:blue"> form, input </span> : 데이터를 입력받고 전송하기 위한 태그
 
  - CSS : 웹페이지를 꾸미기 위해 작성하는 코드(e.g. 색상) -> 프론트엔드 담당
