@@ -17,11 +17,11 @@
 ## 장고 template 문법
  **동적 html 생성** 
  - render(request, 'index.html', context)
- - request :  HTTP Request 객체
- - 'index.html' : 응답할 html 파일 이름
- - context : html 파일에서 사용할 딕셔너리(key값 문자열이어야 함) 
-  + DB 정보 전달 시 'key.객체변수이름'으로 사용
-  + ex <p>{{student.address}}</p>
+   + request :  HTTP Request 객체
+   + 'index.html' : 응답할 html 파일 이름
+   + context : html 파일에서 사용할 딕셔너리(key값 문자열이어야 함) 
+      >  DB 정보 전달 시 'key.객체변수이름'으로 사용
+      > ex <p>{{student.address}}</p>
 
  **HTML**
  - 웹페이지의 구조를 나타내는 마크업 언어. 태그 이용
@@ -37,7 +37,7 @@
 ## 실습
  **동적 html 생성해보기**
  - question만들어서 해당 DB 정보 전달하기
- 
+
  **template 만들기**
  - 하이퍼링크 추가 시 urls.py에서는 path 추가, views.py에는 함수 추가
 
