@@ -36,5 +36,8 @@
 
 ## 실습
  **동적 html 생성해보기**
+ - question만들어서 해당 DB 정보 전달하기
+ **template 만들기**
+ - 하이퍼링크 추가 시 urls.py에서는 path 추가, views.py에는 함수 추가
 
 
