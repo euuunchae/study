@@ -4,7 +4,7 @@
 
 ## Http Method
  - 해당 요청이 어떤 행동을 수행하는 메세지인지 전달하는 상태 코드
- **Http request 구성**
+ - **Http request 구성**
  - 시작라인, 헤더, 공백 라인, 바디
 
  **GET**
