@@ -32,10 +32,10 @@
 
 ## form 태그 및 사용법
  - input: type 속성을 이용해 입력 받을 데이터의 양식을 정할 수 있음
-   - <input type="submit"/> or <button>태그로 제출 버튼 만들기
+   - "<input type="submit"/>" or <button>태그로 제출 버튼 만들기
  - form: action 속성에 지정한 링크로 입력받은 데이터 전송
    - form 안에 input 중첩 가능 -> 입력받기 가능
-  method 속성에 http method 지정 -> request message 맨 앞에 표시됨
+ - method 속성에 http method 지정 -> request message 맨 앞에 표시됨
 
 
 
