@@ -38,19 +38,17 @@
  - method 속성에 http method 지정 -> request message 맨 앞에 표시됨
 
 
-
-## 실습
- **추가 공부**
- - redirect를 사용하는 이유(PRG패턴)
+## 추가 공부
+ - **redirect를 사용하는 이유(PRG패턴)**
    - POST - Redirect - GET
    - POST method를 사용하는 경우, 새로고침 시 중복 발생 가능
    - 사용자: 웹 폼 작성, POST 방식으로 제출
    - 서버: 사용자를 다른 URL로 Redirect -> 사용자는 Redirect된 URL로 GET 방식 요청을 보냄
 
-   -**징점**
+   -**장점**
      - 캐싱 가능(GET request), 새로고침 문제 해결, 북마크/공유 가능
    
- - csrf
+ - **csrf**
    - Cross Stie Request Forgery: 사이트 간 요청 위조
    - 사용자가 악성 스크립트 페이지에 접근하도록 유도하여, 위조된 요청을 정송함. 이때, 웹 쿠키에 저장된 세션아이디를 함께 보냄으로써 서버가 해당 요청을 신뢰하게 함 
    - 악성코드가 서버에서 발생함
