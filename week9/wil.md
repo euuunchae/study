@@ -32,7 +32,7 @@
 
 ## form 태그 및 사용법
  - input: type 속성을 이용해 입력 받을 데이터의 양식을 정할 수 있음
-   - "<input type="submit"/>" or <button>태그로 제출 버튼 만들기
+   - input type="submit" or <button>태그로 제출 버튼 만들기
  - form: action 속성에 지정한 링크로 입력받은 데이터 전송
    - form 안에 input 중첩 가능 -> 입력받기 가능
  - method 속성에 http method 지정 -> request message 맨 앞에 표시됨
@@ -50,7 +50,7 @@
    
  - **csrf**
    - Cross Stie Request Forgery: 사이트 간 요청 위조
-   - 사용자가 악성 스크립트 페이지에 접근하도록 유도하여, 위조된 요청을 정송함. 이때, 웹 쿠키에 저장된 세션아이디를 함께 보냄으로써 서버가 해당 요청을 신뢰하게 함 
+   - 사용자가 악성 스크립트 페이지에 접근하도록 유도하여, 위조된 요청을 전송함. 이때, 웹 쿠키에 저장된 세션아이디를 함께 보냄으로써 서버가 해당 요청을 신뢰하게 함 
    - 악성코드가 서버에서 발생함
    - 방어 방법
      1. Referrer 검증
