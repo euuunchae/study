@@ -56,9 +56,9 @@
      1. Referrer 검증
        - Http request header 정보에서 Referrer 정보 확인 -> host와 Referrer 값이 일치해야 함
      2. csrf token 사용
-       - 사용자 세선에 임의의 값을 저장하여 모든 요청마다 해당 값을 포함하여 전송하도록 함
-     3. captcha 사용
-       - capthcha 인증코드가 없거나 틀리면 요청 거부.
+       - 사용자 세션에 임의의 값을 저장하여 모든 요청마다 해당 값을 포함하여 전송하도록 함
+     3. CAPTCHA 사용
+       - CAPTCHA 인증코드가 없거나 틀리면 요청 거부.
        - ex. 자전거 그림이 있는 타일을 고르시오..
 
 
