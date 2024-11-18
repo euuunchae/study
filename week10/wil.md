@@ -18,7 +18,7 @@
  
 
  **삭제**
- - 저장되어 있는 값 가져와 delete() method 사용
+ - 저장되어 있는 값 가져와 delete() method
  - _실습_
    + question_delete()함수 추가 - delete() method
    + 리다이렉트 시킴
