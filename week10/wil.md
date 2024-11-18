@@ -3,7 +3,7 @@
 
 ## Http Method(복습)
 
-co
+
 ## ORM 심화 & 실습
  **장고 ORM 사용법** 
  - Question() - 객체 만들기, save() - 저장
