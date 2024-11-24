@@ -21,7 +21,7 @@
    + on: 외래 키가 연결될 테이블을 구현한 Model 클래스
    + on_delete에 속성 지정 가능
      -  Models.CASCADE - 외래 키로 연결된 항목이 삭제되면 해당 항복도 같이 삭제함.
-     -  Models.PROTECT - 
+     -  Models.PROTECT - 참조된 객체가 삭제될 때 에러 발생시킴. 해당 객체를 먼저 삭제한 후 참조된 객체 삭제
      -  Models.SET_NULL - fk 필드 값을 null로 바꿈(null=True 일 때만 사용 가능)
      -  Models.SET_DEFAULT - fk 필드 값을 default로 변경(default 값이 있을 때만 사용 가능)
      - Models.NOTHING - 아무런 행동 취하지 않음
